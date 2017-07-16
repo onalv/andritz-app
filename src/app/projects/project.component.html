@@ -1,3 +1,56 @@
-<p>
-  project works!
-</p>
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Machine</th>
+      <th>SAP number</th>
+      <th>Cost Price</th>
+      <th>Sell Price</th>
+      <th>Difference</th>
+      <th>Delivery Date</th>
+      <th>Link Machine Portal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">100</th>
+      <td>POC702</td>
+      <td>132489654</td>
+      <td #t1> {{ 5123 | currency:'EUR':true }} </td>
+      <td #t2> {{ 6849 | currency:'EUR':true }} </td>
+      <td>{{ 5123 - 6849 | currency:'EUR':true }}</td>
+      <td>{{ '08/08/2017' | date }}</td>
+      <td><a href="https://www.andritz.com/group-en" target="_blank">www.andritz.com</a></td>
+    </tr>
+    <tr>
+      <th scope="row">100</th>
+      <td>SEP701D</td>
+      <td>132489654</td>
+      <td #t1> {{ 5123 | currency:'EUR':true }} </td>
+      <td #t2> {{ 6849 | currency:'EUR':true }} </td>
+      <td>{{ 5123 - 6849 | currency:'EUR':true }}</td>
+      <td>{{ '08/08/2017' | date }}</td>
+      <td><a href="https://www.andritz.com/group-en" target="_blank">www.andritz.com</a></td>
+    </tr>
+    <tr>
+      <th scope="row">100</th>
+      <td>CM2000L</td>
+      <td>132489654</td>
+      <td #t1> {{ 5123 | currency:'EUR':true }} </td>
+      <td #t2> {{ 6849 | currency:'EUR':true }} </td>
+      <td>{{ 5123 - 6849 | currency:'EUR':true }}</td>
+      <td>{{ '08/08/2017' | date }}</td>
+      <td><a href="https://www.andritz.com/group-en" target="_blank">www.andritz.com</a></td>
+    </tr>
+    <tr>
+      <th scope="row">100</th>
+      <td>G7-12</td>
+      <td>132489654</td>
+      <td #t1> {{ 5123 | currency:'EUR':true }} </td>
+      <td #t2> {{ 6849 | currency:'EUR':true }} </td>
+      <td>{{ 5123 - 6849 | currency:'EUR':true }}</td>
+      <td>{{ '08/08/2017' | date }}</td>
+      <td><a href="https://www.andritz.com/group-en" target="_blank">www.andritz.com</a></td>
+    </tr>
+  </tbody>
+</table>
