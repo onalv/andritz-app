@@ -8,23 +8,13 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>C-75-826023-681</td>
-      <td>PROAN</td>
-      <td>240088</td>
+
+    <tr *ngFor="let project of projects; let i = index">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ project.wbs }}</td>
+      <td>{{ project.name }}</td>
+      <td>{{ project.vault }}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>C-75-826123-681</td>
-      <td>Cargill Pelletmill</td>
-      <td>240055</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>C-75-826062-681</td>
-      <td>Cargill Optimill</td>
-      <td>240033</td>
-    </tr>
+
   </tbody>
 </table>

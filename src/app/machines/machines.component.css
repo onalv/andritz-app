@@ -1,0 +1,10 @@
+.machine {
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: bold;
+}
+
+.machine:hover {
+  background-color: powderblue;
+  color: black;
+}
